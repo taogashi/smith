@@ -1,0 +1,11 @@
+#! /usr/bin/env python
+
+import rospy
+import sonar_interface.sonar
+from sensor_msgs.msg import Range
+
+if __name__ == '__main__':
+    try:
+        sonar_interface.sonar.node()
+    except rospy.ROSInterruptException:
+        pass

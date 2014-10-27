@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="sonar_interface" name="sonar_node" type="sonar" />
+</launch>

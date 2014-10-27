@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="mavlink_udpdevice" name="mavlink_udpdevice_node" type="mavlink_qgc_node.py">
+        <param name="server_ip" type="str" value="192.168.1.106"/>
+        <param name="qgc_port" type="int" value="14550"/>
+    </node>
+</launch>

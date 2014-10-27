@@ -1,0 +1,8 @@
+<launch>
+    <include file="$(find mavlink_device)/launch/mavlink_device.launch" />
+    <include file="$(find mavlink_ardupilotmega)/launch/mavlink_ardupilotmega.launch" />
+    <include file="$(find mavlink_udp)/launch/mavlink_udp.launch" />
+    <include file="$(find mavlink_udpdevice)/launch/mavlink_udpdevice.launch" />
+    <include file="$(find sonar_interface)/launch/sonar.launch" />
+    <include file="$(find gps_interface)/launch/gps_interface.launch" />
+</launch>

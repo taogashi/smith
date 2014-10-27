@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="mavlink_udp" name="mavlink_udp_node" type="mavlink_udp_node"/>
+</launch>

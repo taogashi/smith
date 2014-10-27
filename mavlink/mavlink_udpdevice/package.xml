@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+	<name>mavlink_udpdevice</name>
+	<version>0.0.0</version>
+	<description>The mavlink_udpdevice pakage</description>
+	<maintainer email="jian-li11@mails.tsinghua.edu.cn">lijian</maintainer>
+	<license>BSD</license>
+	
+	<buildtool_depend>catkin</buildtool_depend>
+	
+	<build_depend>mavlink_ardupilotmega</build_depend>
+	<build_depend>roscpp</build_depend>
+	<build_depend>rospy</build_depend>
+
+	<run_depend>mavlink_ardupilotmega</run_depend>
+	<run_depend>roscpp</run_depend>
+	<run_depend>rospy</run_depend>
+
+	<export>
+		
+	</export>
+</package>

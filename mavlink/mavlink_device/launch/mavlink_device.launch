@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="mavlink_device" name="mavlink_device_node" type="mavlink_device_node.py"/>
+</launch>

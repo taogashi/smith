@@ -1,0 +1,20 @@
+<package>
+  <name>mavlink_udp</name>
+  <version>0.1.0</version>
+  <description>
+  This package provides foo capability.
+  </description>
+  <maintainer email="foobar@foo.bar.willowgarage.com">PR-foobar</maintainer>
+  <license>BSD</license>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>mavlink_common</build_depend>
+  <buildtool_depend>catkin</buildtool_depend> 
+
+  <run_depend>message_runtime</run_depend>  
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>mavlink_common</run_depend>
+</package>

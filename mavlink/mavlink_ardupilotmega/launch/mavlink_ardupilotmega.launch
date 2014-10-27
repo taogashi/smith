@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="mavlink_ardupilotmega" name="mavlink_ardupilotmega_node" type="mavlink_ardupilotmega_node"/>
+</launch>
